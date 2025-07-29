@@ -1,0 +1,38 @@
+{
+  "gameUpdates": [
+    {
+      "id": 1,
+      "title": "New Candy Types Added",
+      "excerpt": "We've added exciting new candy types to make your tossing experience even more delightful!",
+      "fullText": "We've added exciting new candy types to make your tossing experience even more delightful! The new candies include rainbow lollipops, chocolate truffles, and gummy bears. Each candy type has unique properties that affect gameplay - some are easier to match, while others provide bonus points when you create perfect trios. The update also includes improved visual effects and smoother animations for a more polished gaming experience.",
+      "date": "2024-01-15",
+      "image": "./img/triple_card1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Performance Improvements",
+      "excerpt": "Major performance optimizations have been implemented to ensure smooth gameplay on all devices.",
+      "fullText": "Major performance optimizations have been implemented to ensure smooth gameplay on all devices. We've reduced loading times by 40% and improved frame rates across all platforms. The game now runs more efficiently on mobile devices while maintaining the same high-quality graphics. We've also fixed several minor bugs and improved the overall stability of the game.",
+      "date": "2024-01-10",
+      "image": "./img/triple_card2.jpg"
+    }
+  ],
+  "trailDiaries": [
+    {
+      "id": 1,
+      "title": "A Day in the Life of a Candy Tosser",
+      "excerpt": "Follow the journey of a dedicated player as they master the art of candy tossing.",
+      "fullText": "Follow the journey of a dedicated player as they master the art of candy tossing. From their first tentative throws to becoming a precision expert, this diary chronicles the ups and downs of learning the game. Discover the strategies they developed, the challenges they faced, and the satisfaction of finally achieving that perfect score. It's a story of persistence, skill development, and the joy of gaming.",
+      "date": "2024-01-12",
+      "image": "./img/triple_card3.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Community Spotlight: Top Players",
+      "excerpt": "Meet the incredible players who have achieved the highest scores in Triple Treat Toss.",
+      "fullText": "Meet the incredible players who have achieved the highest scores in Triple Treat Toss. We interviewed several top players to learn their secrets, strategies, and what makes the game so addictive for them. From casual players who enjoy quick sessions to hardcore gamers who spend hours perfecting their technique, each player brings a unique perspective to the candy-tossing world.",
+      "date": "2024-01-08",
+      "image": "./img/triple_card4.jpg"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "icon": "🎯",
+      "title": "Precision Aiming",
+      "description": "Master the art of precise candy throwing with intuitive controls that respond to your every move."
+    },
+    {
+      "id": 2,
+      "icon": "💥",
+      "title": "Satisfying Explosions",
+      "description": "Experience delightful match-3 explosions when you create perfect trios of matching candies."
+    },
+    {
+      "id": 3,
+      "icon": "🏆",
+      "title": "Score System",
+      "description": "Compete for high scores with our dynamic scoring system that rewards strategic thinking."
+    },
+    {
+      "id": 4,
+      "icon": "🎨",
+      "title": "Colorful Graphics",
+      "description": "Immerse yourself in a vibrant candy world with stunning visuals and smooth animations."
+    },
+    {
+      "id": 5,
+      "icon": "🎮",
+      "title": "Simple Controls",
+      "description": "Easy to learn, hard to master gameplay that's perfect for players of all skill levels."
+    },
+    {
+      "id": 6,
+      "icon": "♾️",
+      "title": "Endless Fun",
+      "description": "Never-ending entertainment with procedurally generated levels and infinite replayability."
+    }
+  ]
+}

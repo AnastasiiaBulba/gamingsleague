@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Latest news and updates for Triple Treat Toss - Game updates, trail diaries, and exciting new features for the candy-tossing adventure game."
+    />
+    <meta
+      name="keywords"
+      content="Triple Treat Toss, Game Updates, Trail Diaries, Candy Game, Match-3"
+    />
+    <title>News - Gamingsleague.com</title>
+    <link rel="icon" type="image/jpeg" href="./img/favic.jpg" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/cookie-banner.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/news.css" />
+  </head>
+  <body>
+    <div id="header-container"></div>
+
+    <main>
+      <section class="news-hero">
+        <div class="container">
+          <h1>Latest News</h1>
+          <p>Stay updated with the latest developments in Triple Treat Toss</p>
+        </div>
+      </section>
+
+      <section class="news-content">
+        <div class="container">
+          <div class="news-grid">
+            <div class="news-section">
+              <h2>Game Updates</h2>
+              <div class="news-cards" id="game-updates-container">
+                <div class="news-card fade-in" data-id="1">
+                  <div class="news-card-image">
+                    <img
+                      src="./img/triple_card1.jpg"
+                      alt="New Candy Types Added"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="news-card-content">
+                    <div class="news-card-date">January 15, 2025</div>
+                    <h3 class="news-card-title">New Candy Types Added</h3>
+                    <p class="news-card-excerpt">
+                      We've added exciting new candy types to make your tossing
+                      experience even more delightful!
+                    </p>
+                    <p class="news-card-full-text">
+                      We've added exciting new candy types to make your tossing
+                      experience even more delightful! The new candies include
+                      rainbow lollipops, chocolate truffles, and gummy bears.
+                      Each candy type has unique properties that affect gameplay
+                      - some are easier to match, while others provide bonus
+                      points when you create perfect trios. The update also
+                      includes improved visual effects and smoother animations
+                      for a more polished gaming experience.
+                    </p>
+                    <button class="read-more-btn" onclick="toggleReadMore(1)">
+                      Read more
+                    </button>
+                  </div>
+                </div>
+                <div class="news-card fade-in" data-id="2">
+                  <div class="news-card-image">
+                    <img
+                      src="./img/triple_card2.jpg"
+                      alt="Performance Improvements"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="news-card-content">
+                    <div class="news-card-date">January 10, 2025</div>
+                    <h3 class="news-card-title">Performance Improvements</h3>
+                    <p class="news-card-excerpt">
+                      Major performance optimizations have been implemented to
+                      ensure smooth gameplay on all devices.
+                    </p>
+                    <p class="news-card-full-text">
+                      Major performance optimizations have been implemented to
+                      ensure smooth gameplay on all devices. We've reduced
+                      loading times by 40% and improved frame rates across all
+                      platforms. The game now runs more efficiently on mobile
+                      devices while maintaining the same high-quality graphics.
+                      We've also fixed several minor bugs and improved the
+                      overall stability of the game.
+                    </p>
+                    <button class="read-more-btn" onclick="toggleReadMore(2)">
+                      Read more
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="news-section">
+              <h2>Trail Diaries</h2>
+              <div class="news-cards" id="trail-diaries-container">
+                <div class="news-card fade-in" data-id="3">
+                  <div class="news-card-image">
+                    <img
+                      src="./img/triple_card3.jpg"
+                      alt="A Day in the Life of a Candy Tosser"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="news-card-content">
+                    <div class="news-card-date">January 12, 2025</div>
+                    <h3 class="news-card-title">
+                      A Day in the Life of a Candy Tosser
+                    </h3>
+                    <p class="news-card-excerpt">
+                      Follow the journey of a dedicated player as they master
+                      the art of candy tossing.
+                    </p>
+                    <p class="news-card-full-text">
+                      Follow the journey of a dedicated player as they master
+                      the art of candy tossing. From their first tentative
+                      throws to becoming a precision expert, this diary
+                      chronicles the ups and downs of learning the game.
+                      Discover the strategies they developed, the challenges
+                      they faced, and the satisfaction of finally achieving that
+                      perfect score. It's a story of persistence, skill
+                      development, and the joy of gaming.
+                    </p>
+                    <button class="read-more-btn" onclick="toggleReadMore(3)">
+                      Read more
+                    </button>
+                  </div>
+                </div>
+                <div class="news-card fade-in" data-id="4">
+                  <div class="news-card-image">
+                    <img
+                      src="./img/triple_card4.jpg"
+                      alt="Community Spotlight: Top Players"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="news-card-content">
+                    <div class="news-card-date">January 8, 2025</div>
+                    <h3 class="news-card-title">
+                      Community Spotlight: Top Players
+                    </h3>
+                    <p class="news-card-excerpt">
+                      Meet the incredible players who have achieved the highest
+                      scores in Triple Treat Toss.
+                    </p>
+                    <p class="news-card-full-text">
+                      Meet the incredible players who have achieved the highest
+                      scores in Triple Treat Toss. We interviewed several top
+                      players to learn their secrets, strategies, and what makes
+                      the game so addictive for them. From casual players who
+                      enjoy quick sessions to hardcore gamers who spend hours
+                      perfecting their technique, each player brings a unique
+                      perspective to the candy-tossing world.
+                    </p>
+                    <button class="read-more-btn" onclick="toggleReadMore(4)">
+                      Read more
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-container">
+      <footer class="footer fade-in">
+        <div class="footer-container">
+          <div class="footer-content">
+            <div class="footer-section">
+              <h3>Legal</h3>
+              <div class="footer-links">
+                <a href="./trip-cookies.html" class="footer-link"
+                  >Cookie Policy</a
+                >
+                <a href="./trip-privacy.html" class="footer-link"
+                  >Privacy Policy</a
+                >
+                <a href="./trip-disclaimer.html" class="footer-link"
+                  >Disclaimer</a
+                >
+              </div>
+            </div>
+
+            <div class="footer-section">
+              <h3>Contact Info</h3>
+              <div class="footer-contact">
+                <div class="contact-item">
+                  <div class="contact-icon">📧</div>
+                  <div class="contact-text">contact@gamingsleague.com</div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon">📞</div>
+                  <div class="contact-text">+61 373 888 373</div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon">📍</div>
+                  <div class="contact-text">
+                    42 Kent Street<br />
+                    Millers Point<br />
+                    Sydney NSW 2000<br />
+                    Australia
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="copyright">
+              © <span class="copyright-year">2024</span>
+              Gamingsleague.com. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/utils.js"></script>
+    <script src="./js/cookie-banner.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/news-simple.js"></script>
+  </body>
+</html>

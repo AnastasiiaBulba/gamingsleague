@@ -1,0 +1,40 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "rating": 5,
+      "text": "Absolutely addictive! The candy-tossing mechanics are so satisfying. I love how strategic you need to be to create those perfect trios."
+    },
+    {
+      "id": 2,
+      "name": "Mike Chen",
+      "rating": 5,
+      "text": "Perfect casual game for quick breaks. The explosions are so satisfying and the controls are intuitive. Highly recommend!"
+    },
+    {
+      "id": 3,
+      "name": "Emma Davis",
+      "rating": 4,
+      "text": "Great game to relax with. The colorful graphics are beautiful and the gameplay is simple yet challenging. Love it!"
+    },
+    {
+      "id": 4,
+      "name": "Alex Thompson",
+      "rating": 5,
+      "text": "This game is pure fun! The match-3 mechanics with candy tossing is such a unique twist. Can't stop playing!"
+    },
+    {
+      "id": 5,
+      "name": "Lisa Wang",
+      "rating": 4,
+      "text": "Simple controls but deep strategy. I love trying to beat my high scores and the explosions are so satisfying!"
+    },
+    {
+      "id": 6,
+      "name": "David Rodriguez",
+      "rating": 5,
+      "text": "Amazing game! The precision aiming is challenging but rewarding. Perfect for both quick sessions and longer play."
+    }
+  ]
+}

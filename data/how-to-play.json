@@ -1,0 +1,46 @@
+{
+  "instructions": [
+    {
+      "id": 1,
+      "number": "1",
+      "title": "Aim Carefully",
+      "description": "Look for clusters where at least two candies of the same type are already waiting. These are your prime targets for creating trios.",
+      "tip": "Take your time to plan your shots - precision is key!"
+    },
+    {
+      "id": 2,
+      "number": "2",
+      "title": "Throw with Precision",
+      "description": "Click and drag to aim your candy, then release to throw. The longer you hold, the more power you'll have, but accuracy is crucial.",
+      "tip": "Practice makes perfect - start with easy targets!"
+    },
+    {
+      "id": 3,
+      "number": "3",
+      "title": "Create Perfect Trios",
+      "description": "Only groups of exactly three matching candies will score points and create satisfying explosions. Four or more won't count!",
+      "tip": "Remember: exactly three candies, no more, no less!"
+    },
+    {
+      "id": 4,
+      "number": "4",
+      "title": "Chain Reactions",
+      "description": "When candies explode, they clear space for new ones. Use this to your advantage to create multiple combos in a single turn.",
+      "tip": "Look for opportunities to trigger chain reactions!"
+    },
+    {
+      "id": 5,
+      "number": "5",
+      "title": "Score Points",
+      "description": "Each successful trio earns you points. The more strategic your moves, the higher your score will be.",
+      "tip": "Try to clear multiple trios in one turn for bonus points!"
+    },
+    {
+      "id": 6,
+      "number": "6",
+      "title": "Keep Playing",
+      "description": "The game continues until you can't make any more moves. Challenge yourself to beat your high score!",
+      "tip": "Don't give up - every game is a new opportunity!"
+    }
+  ]
+}
