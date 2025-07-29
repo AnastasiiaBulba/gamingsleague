@@ -285,7 +285,7 @@ document.addEventListener("DOMContentLoaded", function () {
       clearFormFields();
 
       // Show success message popup
-      showSuccessPopup("Дані успішно відправлено!");
+      showSuccessPopup("Data successfully sent!");
 
       // Clear error messages
       document.querySelectorAll(".error-message").forEach((error) => {
