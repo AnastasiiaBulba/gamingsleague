@@ -129,14 +129,6 @@ function initCookieBanner() {
     });
   });
 
-  // Add auto-hide after 30 seconds (optional)
-  setTimeout(() => {
-    if (cookieBanner.parentNode && !localStorage.getItem("cookieChoice")) {
-      console.log("Cookie banner auto-hidden after 30 seconds");
-      hideBanner("auto-hidden");
-    }
-  }, 30000);
-
   // Add intersection observer to show banner when user scrolls to bottom
   const observer = new IntersectionObserver(
     (entries) => {

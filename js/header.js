@@ -29,6 +29,7 @@ function initHeader() {
             </div>
             
             <div class="mobile-menu">
+                <div class="mobile-menu-backdrop"></div>
                 <div class="mobile-menu-content">
                     <button class="mobile-close-btn" aria-label="Close mobile menu">×</button>
                     <ul class="mobile-menu-list">
@@ -49,6 +50,7 @@ function initHeader() {
   const mobileMenu = document.querySelector(".mobile-menu");
   const mobileMenuLinks = document.querySelectorAll(".mobile-menu-link");
   const mobileCloseBtn = document.querySelector(".mobile-close-btn");
+  const mobileMenuBackdrop = document.querySelector(".mobile-menu-backdrop");
 
   // Header scroll effect
   function handleHeaderScroll() {
@@ -64,27 +66,60 @@ function initHeader() {
     const isOpen = mobileMenu.classList.contains("active");
 
     if (isOpen) {
-      mobileMenu.classList.remove("active");
-      mobileMenuBtn.classList.remove("active");
-      document.body.style.overflow = "";
+      closeMobileMenu();
     } else {
-      mobileMenu.classList.add("active");
-      mobileMenuBtn.classList.add("active");
-      document.body.style.overflow = "hidden";
+      openMobileMenu();
     }
   }
 
-  // Close mobile menu when clicking on a link
+  // Open mobile menu
+  function openMobileMenu() {
+    mobileMenu.classList.add("active");
+    mobileMenuBtn.classList.add("active");
+    document.body.style.overflow = "hidden";
+    document.body.style.position = "fixed";
+    document.body.style.width = "100%";
+
+    // Add backdrop to body
+    const bodyBackdrop = document.createElement("div");
+    bodyBackdrop.className = "mobile-menu-backdrop";
+    bodyBackdrop.style.position = "fixed";
+    bodyBackdrop.style.top = "0";
+    bodyBackdrop.style.left = "0";
+    bodyBackdrop.style.right = "0";
+    bodyBackdrop.style.bottom = "0";
+    bodyBackdrop.style.background = "rgba(0, 0, 0, 0.8)";
+    bodyBackdrop.style.backdropFilter = "blur(8px)";
+    bodyBackdrop.style.zIndex = "998";
+    document.body.appendChild(bodyBackdrop);
+  }
+
+  // Close mobile menu
   function closeMobileMenu() {
     mobileMenu.classList.remove("active");
     mobileMenuBtn.classList.remove("active");
     document.body.style.overflow = "";
+    document.body.style.position = "";
+    document.body.style.width = "";
+
+    // Remove backdrop from body
+    const bodyBackdrop = document.querySelector(".mobile-menu-backdrop");
+    if (bodyBackdrop) {
+      bodyBackdrop.remove();
+    }
   }
 
   // Event listeners
   window.addEventListener("scroll", utils.throttle(handleHeaderScroll, 100));
   mobileMenuBtn.addEventListener("click", toggleMobileMenu);
   mobileCloseBtn.addEventListener("click", closeMobileMenu);
+
+  // Close menu when clicking on backdrop
+  document.addEventListener("click", function (e) {
+    if (e.target.classList.contains("mobile-menu-backdrop")) {
+      closeMobileMenu();
+    }
+  });
 
   mobileMenuLinks.forEach((link) => {
     link.addEventListener("click", closeMobileMenu);
