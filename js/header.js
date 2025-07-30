@@ -29,7 +29,6 @@ function initHeader() {
             </div>
             
             <div class="mobile-menu">
-                <div class="mobile-menu-backdrop"></div>
                 <div class="mobile-menu-content">
                     <button class="mobile-close-btn" aria-label="Close mobile menu">×</button>
                     <ul class="mobile-menu-list">
@@ -81,17 +80,9 @@ function initHeader() {
     document.body.style.width = "100%";
 
     // Add backdrop to body
-    const bodyBackdrop = document.createElement("div");
-    bodyBackdrop.className = "mobile-menu-backdrop";
-    bodyBackdrop.style.position = "fixed";
-    bodyBackdrop.style.top = "0";
-    bodyBackdrop.style.left = "0";
-    bodyBackdrop.style.right = "0";
-    bodyBackdrop.style.bottom = "0";
-    bodyBackdrop.style.background = "rgba(0, 0, 0, 0.8)";
-    bodyBackdrop.style.backdropFilter = "blur(8px)";
-    bodyBackdrop.style.zIndex = "998";
-    document.body.appendChild(bodyBackdrop);
+    const backdrop = document.createElement("div");
+    backdrop.className = "mobile-menu-backdrop";
+    document.body.appendChild(backdrop);
   }
 
   // Close mobile menu
@@ -103,9 +94,9 @@ function initHeader() {
     document.body.style.width = "";
 
     // Remove backdrop from body
-    const bodyBackdrop = document.querySelector(".mobile-menu-backdrop");
-    if (bodyBackdrop) {
-      bodyBackdrop.remove();
+    const backdrop = document.querySelector(".mobile-menu-backdrop");
+    if (backdrop) {
+      backdrop.remove();
     }
   }
 

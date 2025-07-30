@@ -182,7 +182,7 @@
 
 @media (max-width: 768px) {
   .hero-section {
-    min-height: 60vh;
+    min-height: 75vh;
     align-items: center;
     justify-content: center;
     padding-top: 60px;
@@ -211,12 +211,13 @@
 
   .hero-image {
     max-width: 350px;
+    margin-bottom: 40px;
   }
 }
 
 @media (max-width: 480px) {
   .hero-section {
-    min-height: 70vh;
+    min-height: 85vh;
     align-items: center;
     justify-content: center;
     padding-top: 50px;
@@ -249,6 +250,7 @@
 
   .hero-image {
     max-width: 280px;
+    margin-bottom: 40px;
   }
 }
 
